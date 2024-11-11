@@ -11,7 +11,7 @@ const About = () => (
       <Image
         className={styles.heroImage}
         alt="hero"
-        src="/images/profile1.jfif"
+        src="/images/umair.jpg"
         width={300}
         height={300} />
     </div>
