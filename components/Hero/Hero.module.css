@@ -1,0 +1,36 @@
+.heroContainer {
+  text-align: center;
+  padding: 120px;
+}
+
+.heroImage {
+  border-radius: 20%;
+}
+
+.heroTitle {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.heroDescription {
+  color: #eeac06;
+  margin: 15px 0;
+}
+
+.heroIcons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.iconButton {
+  font-size: 40px;
+  color: #000;
+  transition: color 0.3s;
+}
+
+.iconButton:hover {
+  color: #fbbf24;
+}

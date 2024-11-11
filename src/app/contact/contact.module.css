@@ -1,0 +1,88 @@
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  padding: 20px;
+  background-color: #000000; /* Black background */
+  overflow: hidden; /* Prevents any overflow */
+}
+
+.contact-container {
+  max-width: 500px;  /* Set a smaller max-width */
+  width: 70%; /* 70% of the page width */
+  background-color: #333333; /* Dark gray background for contrast */
+  padding: 30px; /* Reduced padding */
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fbbf24;
+} /* Dark yellow text */
+
+
+.contact-form h2 {
+  font-size: 24px; /* Reduced font size */
+  font-weight: bold;
+  color: #f7f5f2; /* Dark yellow */
+  margin-bottom: 20px;
+}
+
+.contact-form p {
+  font-size: 16px; /* Smaller font size */
+  color: #fbbf24; /* Dark yellow */
+  margin-bottom: 20px; /* Reduced margin */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Reduced margin between inputs */
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 14px; /* Reduced label size */
+  color: #fbbf24; /* Dark yellow */
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px; /* Smaller padding */
+  margin-top: 8px;
+  border: 2px solid #fbbf24;; /* Dark yellow border */
+  border-radius: 6px;
+  background-color: #272525; /* Dark gray input background */
+  color: #fbbf24;
+  font-size: 14px; /* Smaller text in inputs */
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 100px; /* Reduced height for textarea */
+}
+
+.submit-btn {
+  display: inline-block;
+  width: 100%;
+  padding: 12px; /* Smaller padding */
+  background-color: #fbbf24;
+  color: #000000; /* Black text */
+  font-size: 16px; /* Smaller font size */
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #fbbf24; /* Slightly lighter yellow */
+  transform: scale(1.05);
+}
+
+.small-text {
+  font-size: 14px; /* Smaller font size */
+  color: #fbbf24;
+  margin-top: 20px;
+}
