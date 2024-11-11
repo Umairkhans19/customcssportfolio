@@ -10,7 +10,7 @@ const Hero = () => {
       <Image
         className={cssStyle.heroImage}
         alt="hero"
-        src="/images/profile1.jfif"
+        src="/images/umair.jpg"
         width={300}
         height={300}
       />
