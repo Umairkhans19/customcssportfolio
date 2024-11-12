@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import cssStyle from './Header.module.css'; // Import the CSS module
+import cssStyle from './Header.module.css'; 
 
 const Header = () => {
   return (

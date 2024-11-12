@@ -1,15 +1,12 @@
 import React from 'react';
-import styles from './contact.module.css'; // Importing CSS module
+import styles from './contact.module.css'; 
 
 const Contact = () => {
   return (
     <section className={styles['contact-section']}>
       <div className={styles['contact-container']}>
         
-       
-
-        {/* Contact Form Section */}
-        <div className={styles['contact-form']}>
+         <div className={styles['contact-form']}>
           <h2>Contact Me</h2>
           <p>Thank you for visiting my portfolio. If you have any inquiries or feedback,
              please feel free to reach out. I will respond to your message promptly.</p>
